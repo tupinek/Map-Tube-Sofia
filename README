@@ -1,0 +1,93 @@
+NAME
+    Map::Tube::Sofia - Interface to the Sofia Tube Map.
+
+SYNOPSIS
+     use Map::Tube::Sofia;
+     my $obj = Map::Tube::Sofia->new;
+     my $route = $obj->get_shortest_route($from, $to);
+     my $xml_file = $obj->xml;
+
+DESCRIPTION
+    It currently provides functionality to find the shortest route between
+    the two given nodes.
+
+    For more information about Sofia Map, click here
+    <https://en.wikipedia.org/wiki/Sofia_Metro>.
+
+METHODS
+    "new()"
+             Constructor.
+
+    "get_shortest_route($from, $to)"
+             Get shortest route between $from and $to node name. Node name is case insensitive.
+             Returns back the node sequence in string.
+
+    "xml()"
+             Get XML specification of Sofia metro.
+             Returns string with XML.
+
+EXAMPLE1
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Encode qw(decode_utf8 encode_utf8);
+     use Map::Tube::Sofia;
+
+     # Object.
+     my $obj = Map::Tube::Sofia->new;
+
+     # Get route.
+     my $route = $obj->get_shortest_route(decode_utf8('Dejvická'), decode_utf8('Ládví'));
+
+     # Print out type.
+     print "Route: ".encode_utf8($route)."\n";
+
+     # Output:
+     # Route: Dejvická, Hradčanská, Malostranská, Staroměstská, Náměstí Republiky, Vltavská, Nádraží Holešovice, Kobylisy, Ládví
+
+EXAMPLE2
+     # Pragmas.
+     use strict;
+     use utf8;
+     use warnings;
+
+     # Modules.
+     use Map::Tube::Sofia;
+
+     # Object.
+     my $obj = Map::Tube::Sofia->new;
+
+     # Get XML file.
+     my $xml_file = $obj->xml;
+
+     # Print out XML file.
+     print "XML file: $xml_file\n";
+
+     # Output like:
+     # XML file: .*/prague-map.xml
+
+DEPENDENCIES
+    File::Share, Map::Tube, Moo, namespace::clean.
+
+SEE ALSO
+    Map::Tube, Map::Tube::Barcelona, Map::Tube::Delhi, Map::Tube::London,
+    Map::Tube::Tokyo.
+
+REPOSITORY
+    <https://github.com/Manwar/Map-Tube-Sofia>
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+     © Michal Špaček 2014
+     Artistic License
+     BSD 2-Clause License
+
+VERSION
+    0.01
+
