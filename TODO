@@ -1,7 +1,9 @@
 TODO
 ====
-1. Jak resit spoje mezi stanicemi tunely pro pesi?
-2.
+1. Jak resit spoje mezi stanicemi tunely pro pesi? (ted nejsou)
+2. Nefunguje zjisteni trasy od Люлин do 'Ломско шосе'. Vznikne rekurzivni
+   volani.
+3.
 
 Applied
 =======
