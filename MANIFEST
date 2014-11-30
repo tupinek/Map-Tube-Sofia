@@ -21,3 +21,5 @@ t/Map-Tube-Sofia/00-use.t
 t/Map-Tube-Sofia/01-version.t
 t/Map-Tube-Sofia/02-pod_coverage.t
 t/Map-Tube-Sofia/03-pod.t
+t/Map-Tube-Sofia/04-get_shortest_route.t
+t/Map-Tube-Sofia/05-xml.t
