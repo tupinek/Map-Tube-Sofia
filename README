@@ -39,13 +39,13 @@ EXAMPLE1
      my $obj = Map::Tube::Sofia->new;
 
      # Get route.
-     my $route = $obj->get_shortest_route(decode_utf8('Dejvická'), decode_utf8('Ládví'));
+     my $route = $obj->get_shortest_route(decode_utf8('Люлин'), decode_utf8('Вардар'));
 
      # Print out type.
      print "Route: ".encode_utf8($route)."\n";
 
      # Output:
-     # Route: Dejvická, Hradčanská, Malostranská, Staroměstská, Náměstí Republiky, Vltavská, Nádraží Holešovice, Kobylisy, Ládví
+     # Route: Люлин (Първи метродиаметър), Западен парк (Първи метродиаметър), Вардар (Първи метродиаметър)
 
 EXAMPLE2
      # Pragmas.
@@ -66,14 +66,14 @@ EXAMPLE2
      print "XML file: $xml_file\n";
 
      # Output like:
-     # XML file: .*/prague-map.xml
+     # XML file: .*/sofia-map.xml
 
 DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.
 
 SEE ALSO
     Map::Tube, Map::Tube::Barcelona, Map::Tube::Delhi, Map::Tube::London,
-    Map::Tube::Tokyo.
+    Map::Tube::NYC, Map::Tube::Prague, Map::Tube::Tokyo.
 
 REPOSITORY
     <https://github.com/Manwar/Map-Tube-Sofia>

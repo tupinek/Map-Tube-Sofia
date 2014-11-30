@@ -22,6 +22,7 @@ meta-spec:
 name: Map-Tube-Sofia
 no_index:
   directory:
+    - examples
     - inc
     - share
     - t

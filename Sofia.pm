@@ -81,13 +81,13 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
  my $obj = Map::Tube::Sofia->new;
 
  # Get route.
- my $route = $obj->get_shortest_route(decode_utf8('Dejvická'), decode_utf8('Ládví'));
+ my $route = $obj->get_shortest_route(decode_utf8('Люлин'), decode_utf8('Вардар'));
 
  # Print out type.
  print "Route: ".encode_utf8($route)."\n";
 
  # Output:
- # Route: Dejvická, Hradčanská, Malostranská, Staroměstská, Náměstí Republiky, Vltavská, Nádraží Holešovice, Kobylisy, Ládví
+ # Route: Люлин (Първи метродиаметър), Западен парк (Първи метродиаметър), Вардар (Първи метродиаметър)
 
 =head1 EXAMPLE2
 
@@ -109,7 +109,7 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
  print "XML file: $xml_file\n";
 
  # Output like:
- # XML file: .*/prague-map.xml
+ # XML file: .*/sofia-map.xml
 
 =head1 DEPENDENCIES
 
@@ -124,6 +124,8 @@ L<Map::Tube>,
 L<Map::Tube::Barcelona>,
 L<Map::Tube::Delhi>,
 L<Map::Tube::London>,
+L<Map::Tube::NYC>,
+L<Map::Tube::Prague>,
 L<Map::Tube::Tokyo>.
 
 =head1 REPOSITORY
