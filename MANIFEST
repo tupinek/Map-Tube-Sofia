@@ -18,6 +18,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/sofia-map.xml
+SIGNATURE
 Sofia.pm
 t/Map-Tube-Sofia/00-use.t
 t/Map-Tube-Sofia/01-version.t
