@@ -12,10 +12,10 @@ use Map::Tube::Sofia;
 my $obj = Map::Tube::Sofia->new;
 
 # Get route.
-my $route = $obj->get_shortest_route(decode_utf8('Люлин'), decode_utf8('Ломско шосе'));
+my $route = $obj->get_shortest_route(decode_utf8('Люлин'), decode_utf8('Вардар'));
 
 # Print out type.
 print "Route: ".encode_utf8($route)."\n";
 
 # Output:
-# TODO
+# Route: Люлин (Първи метродиаметър), Западен парк (Първи метродиаметър), Вардар (Първи метродиаметър)
