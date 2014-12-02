@@ -1,6 +1,7 @@
 0.02
  - Add tests for get_shortest_route() method.
  - Fix XML map (Thanks Mohammad S Anwar). 
+ - Remove obsolete pragma from EXAMPLE2 section in doc.
  - Update examples/ directory.
 
 0.01 2014-12-01T08:57:30+01:00

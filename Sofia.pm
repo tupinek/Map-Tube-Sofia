@@ -93,7 +93,6 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
 
  # Pragmas.
  use strict;
- use utf8;
  use warnings;
 
  # Modules.
