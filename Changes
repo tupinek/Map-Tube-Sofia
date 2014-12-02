@@ -1,4 +1,5 @@
 0.02
+ - Add tests for get_shortest_route() method.
  - Fix XML map (Thanks Mohammad S Anwar). 
  - Update examples/ directory.
 
