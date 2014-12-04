@@ -1,4 +1,4 @@
-0.02
+0.02 2014-12-04T07:52:59+01:00
  - Add Map::Tube::Warsaw to SEE ALSO section in doc.
  - Add tests for get_shortest_route() method.
  - Fix XML map (Thanks Mohammad S Anwar). 

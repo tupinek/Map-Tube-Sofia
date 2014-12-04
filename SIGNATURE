@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7363adaafbff45fd54932f3975ca29bc4418a803 Changes
+SHA1 0b98449205c4587d1e35c2593b8f94046ba0e0de Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
 SHA1 5847fd6a4898c86b31ad665ba90fc992f8fb23ed MANIFEST
-SHA1 da1a5bff77ca55a6d54dfd94cd3643620a138afe META.yml
-SHA1 b753a0207442e4589c19829a45977c1fa57b57cd Makefile.PL
-SHA1 cda2ba8a9192a2f3be9be3b9ec3dd1f6f4bc4d8c README
-SHA1 036ff972a73e3e9588d85b41466f6d4ee5c0334d Sofia.pm
-SHA1 1e3748fe5fccc253fa024b0db11df1095b8c294e examples/ex1.pl
-SHA1 ca7fbead6123168d73e2dde94db78181cfddbeba examples/ex2.pl
+SHA1 7ce2834982aa8ff4e53b2b8f37677329d2fd87cb META.yml
+SHA1 79654125d9019e7cc38739f139514dcd2178737e Makefile.PL
+SHA1 3dbc9f5bfea336f59b84a33fcc39d7f95799e080 README
+SHA1 c5d80cd4e7de0d01a989741693a9da58bf3b29ac Sofia.pm
+SHA1 2ed9937b38258aac47eb606adb0d6c1dbf0f14e8 examples/ex1.pl
+SHA1 b7ecf787efdf2b4083917f2639c0a3c175ea38a5 examples/ex2.pl
 SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
 SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
 SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
@@ -34,21 +34,21 @@ SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.p
 SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
 SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
 SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
-SHA1 83a0d5b4c9853bca3529153b5d8f50d51fd492bd share/sofia-map.xml
+SHA1 3a0dba28d74cf329c4eb68d73f3052781ea21d8b share/sofia-map.xml
 SHA1 db2ade66e7a46d6ed7e93426f7b7281a924f8616 t/Map-Tube-Sofia/00-use.t
-SHA1 87f063595f0e397ca91e4c7c1428f3f417155402 t/Map-Tube-Sofia/01-version.t
+SHA1 e456f303a769aeef8f07337152b018db56a8b9a7 t/Map-Tube-Sofia/01-version.t
 SHA1 11d0a2cddc87d1944a4449f91b735539c44162f7 t/Map-Tube-Sofia/02-pod_coverage.t
 SHA1 1ec968a7f3fcf8025c75b55a41b7380f8746ca1f t/Map-Tube-Sofia/03-pod.t
-SHA1 c7ce2624c4324f8db243fa7bcc2c5dfb3438da5d t/Map-Tube-Sofia/04-get_shortest_route.t
+SHA1 233bea7aca8c07fe7da4de66fd2748ed036b93ce t/Map-Tube-Sofia/04-get_shortest_route.t
 SHA1 1b01ca0a00bf45bc2f955c471bfdc15b1b44e747 t/Map-Tube-Sofia/05-xml.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJUfB9xAAoJEAwa+cf4dLBakUsH/0Y4RoWiE9PsN+YEwKPT3MFr
-rXO3vAMqmDMJSTqwrIA0y+8nfUMjOS/ujIbE+Bgxx2Q+0iWErmq8SzaaOlsQh2vn
-UxUwKwYifr+I3IGQpc6iB7fSHEvRT9u8w2k8+1rIYbIwKUd6BKUUgyExMj24l7pu
-wqw92K/uzZw2TJPYz+apIuDHkoubZ1j3UuyReqASe6kIDqNB+aRUeiuRs6bCkuqU
-4huBAuPdzGO4TfY7H0/QxrG3HT+IrvBtGhn62ivAbsPaTW/rZOkivkXv0qgPyw/4
-Ap9k25cYE+9CHx2gYpdUVVSkOf//Jq4EtvE10jkwozpLzo5EFzjEPgauT6Wp+8o=
-=tEGb
+iQEcBAEBAgAGBQJUgATYAAoJEAwa+cf4dLBaFncIAM+vP3gLJIBeEvo/2F8QC5Zk
+PwXKLFTfwAumTQQzqZH2qtnNlF/M4mXQ8XFhpw0N4Z5M5atGM21v28tL3i/sVC9V
+bGYd5rvHpI1k5cxknuAeph/JplAXRA6dYUkY4i0sb2zdf1n18ahj1HM1oGbaUANh
+ih6xYgPksypbOHWt+mmbAPYrQoocsSUSZHZmh6vHA/7y3LMx14GZNeiJHPvEsr2m
+zc81tUT4CfNL/hUanDmdQAL/jF1gHm9jM9us0vDCTDqh3VT1z6VP/mRjIVxolhsk
+iWuvZFLtXJA16zjRMjcwg3E1CvwWVN2bLbbSdQmRnkosbkg0vrt4U76pSiMqZdc=
+=YnRY
 -----END PGP SIGNATURE-----
