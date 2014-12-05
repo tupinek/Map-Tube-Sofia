@@ -31,7 +31,7 @@ __END__
 
 =head1 NAME
 
-Map::Tube::Sofia - Interface to the Sofia Tube Map.
+Map::Tube::Sofia - Interface to the Sofia Metro Map.
 
 =head1 SYNOPSIS
 

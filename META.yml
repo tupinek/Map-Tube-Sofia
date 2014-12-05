@@ -1,5 +1,5 @@
 ---
-abstract: 'Interface to the Sofia Tube Map.'
+abstract: 'Interface to the Sofia Metro Map.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:

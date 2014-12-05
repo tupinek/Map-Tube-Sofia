@@ -1,5 +1,5 @@
 NAME
-    Map::Tube::Sofia - Interface to the Sofia Tube Map.
+    Map::Tube::Sofia - Interface to the Sofia Metro Map.
 
 SYNOPSIS
      use Map::Tube::Sofia;
