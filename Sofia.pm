@@ -121,8 +121,10 @@ L<namespace::clean>.
 
 L<Map::Tube>,
 L<Map::Tube::Barcelona>,
+L<Map::Tube::Berlin>,
 L<Map::Tube::Delhi>,
 L<Map::Tube::London>,
+L<Map::Tube::Moscow>,
 L<Map::Tube::NYC>,
 L<Map::Tube::Prague>,
 L<Map::Tube::Tokyo>,
