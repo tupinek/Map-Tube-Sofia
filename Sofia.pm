@@ -37,6 +37,9 @@ Map::Tube::Sofia - Interface to the Sofia Metro Map.
 
  use Map::Tube::Sofia;
  my $obj = Map::Tube::Sofia->new;
+ my $routes_ar = $obj->get_all_routes($from, $to);
+ my $station = $obj->get_node_by_id($station_id);
+ my $station = $obj->get_node_by_name($station_name);
  my $route = $obj->get_shortest_route($from, $to);
  my $xml_file = $obj->xml;
 
@@ -54,6 +57,21 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
 =item C<new()>
 
  Constructor.
+
+=item C<get_all_routes($from, $to)>
+
+ Get all routes from station to station.
+ Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_node_by_id($station_id)>
+
+ Get station node by id.
+ Returns Map::Tube::Node object.
+
+=item C<get_node_by_name($station_name)>
+
+ Get station node by name.
+ Returns Map::Tube::Node object.
 
 =item C<get_shortest_route($from, $to)>
 
