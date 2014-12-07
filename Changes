@@ -1,5 +1,7 @@
 0.03
  - Add Map::Tube::Berlin and Map::Tube::Moscow to SEE ALSO section.
+ - Fix get_shortest_route() method description in doc. Thanks Mohammad S Anwar
+   (#100768).
  - Improve abstract to readable version.
 
 0.02 2014-12-04T07:52:59+01:00
