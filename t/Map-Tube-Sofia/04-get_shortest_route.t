@@ -1,9 +1,10 @@
 # Pragmas.
 use strict;
 use warnings;
+use utf8;
 
 # Modules.
-use Encode qw(decode_utf8);
+use Encode qw(encode_utf8);
 use English;
 use Map::Tube::Sofia;
 use Test::More tests => 7;
@@ -36,7 +37,7 @@ like(
 
 # Test.
 eval {
-	$map->get_shortest_route(decode_utf8('Сердика'), 'Foo');
+	$map->get_shortest_route('Сердика', 'Foo');
 };
 like(
 	$EVAL_ERROR,
@@ -45,17 +46,15 @@ like(
 );
 
 # Test.
-my $ret = $map->get_shortest_route(decode_utf8('Ломско шосе'),
-	decode_utf8('Сливница'));
-my $right_ret = decode_utf8('Ломско шосе (Втори метродиаметър), Обеля '.
+my $ret = $map->get_shortest_route('Ломско шосе','Сливница');
+my $right_ret = encode_utf8('Ломско шосе (Втори метродиаметър), Обеля '.
 	'(Първи метродиаметър,Втори метродиаметър), '.
 	'Сливница (Първи метродиаметър)');
-is($ret, $right_ret, "Shortest route from 'Ломско шосе' to 'Сливница'.");
+is($ret, $right_ret, encode_utf8("Shortest route from 'Ломско шосе' to 'Сливница'."));
 
 # Test.
-$ret = $map->get_shortest_route(decode_utf8('Сливница'),
-	decode_utf8('Ломско шосе'));
-$right_ret = decode_utf8('Сливница (Първи метродиаметър), Обеля '.
+$ret = $map->get_shortest_route('Сливница', 'Ломско шосе');
+$right_ret = encode_utf8('Сливница (Първи метродиаметър), Обеля '.
 	'(Първи метродиаметър,Втори метродиаметър), '.
 	'Ломско шосе (Втори метродиаметър)');
-is($ret, $right_ret, "Shortest route from 'Сливница' to 'Ломско шосе'.");
+is($ret, $right_ret, encode_utf8("Shortest route from 'Сливница' to 'Ломско шосе'."));

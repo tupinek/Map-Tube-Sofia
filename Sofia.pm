@@ -58,7 +58,8 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
 =item C<get_shortest_route($from, $to)>
 
  Get shortest route between $from and $to node name. Node name is case insensitive.
- Returns back the node sequence in string.
+ Returns back an object of type L<Map::Tube::Route>, which in the print context
+ becomes the node sequence in string.
 
 =item C<xml()>
 
