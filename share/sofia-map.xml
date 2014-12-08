@@ -1,4 +1,4 @@
-<tube>
+<tube name="Софийско метро">
   <!-- https://bg.wikipedia.org/wiki/Софийско_метро -->
   <stations>
     <!-- Stations on multiple lines. -->
