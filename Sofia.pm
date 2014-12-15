@@ -146,13 +146,18 @@ L<namespace::clean>.
 L<Map::Tube>,
 L<Map::Tube::Barcelona>,
 L<Map::Tube::Berlin>,
+L<Map::Tube::Bucharest>,
 L<Map::Tube::Delhi>,
+L<Map::Tube::Kazan>,
+L<Map::Tube::Kharkiv>,
 L<Map::Tube::Kiev>,
 L<Map::Tube::London>,
 L<Map::Tube::Minsk>,
 L<Map::Tube::Moscow>,
 L<Map::Tube::NYC>,
 L<Map::Tube::Prague>,
+L<Map::Tube::Samara>,
+L<Map::Tube::Tbilisi>,
 L<Map::Tube::Tokyo>,
 L<Map::Tube::Warsaw>.
 
