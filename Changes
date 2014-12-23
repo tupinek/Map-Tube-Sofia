@@ -4,6 +4,7 @@
    Map::Tube::Dnipropetrovsk, Map::Tube::Novosibirsk,
    Map::Tube::SaintPetersburg, Map::Tube::Vienna and
    Map::Tube::Yekaterinburg to SEE ALSO section in doc.
+ - Add get_lines() method to doc.
  - Remove executable bit from sofia-map.xml file.
 
 0.03 2014-12-15T07:55:58+01:00
