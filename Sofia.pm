@@ -134,6 +134,44 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
  # Output like:
  # XML file: .*/sofia-map.xml
 
+=head1 EXAMPLE3
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Map::Tube::GraphViz;
+ use Map::Tube::GraphViz::Utils qw(node_color_without_label);
+ use Map::Tube::Sofia;
+
+ # Object.
+ my $obj = Map::Tube::Sofia->new;
+
+ # GraphViz object.
+ my $g = Map::Tube::GraphViz->new(
+         'callback_node' => \&node_color_without_label,
+         'driver' => 'neato',
+         'tube' => $obj,
+ ); 
+
+ # Get graph to file.
+ $g->graph('Sofia.png');
+
+ # Print file.
+ system "ls -l Sofia.png";
+
+ # Output like:
+ # -rw-r--r-- 1 skim skim 78098 Dec 23 11:47 Sofia.png
+
+=begin html
+
+<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Sofia/master/images/Sofia.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Sofia/master/images/Sofia.png" alt="Софийско метро" width="300px" height="300px" />
+</a>
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<File::Share>,
