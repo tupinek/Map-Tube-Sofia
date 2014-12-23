@@ -26,4 +26,4 @@ $g->graph('Sofia.png');
 system "ls -l Sofia.png";
 
 # Output like:
-# TODO
+# -rw-r--r-- 1 skim skim 78098 Dec 23 11:47 Sofia.png
