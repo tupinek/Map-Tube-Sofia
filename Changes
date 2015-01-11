@@ -1,4 +1,5 @@
 0.05
+ - Add Map::Tube::Graph and Task::Map::Tube to SEE ALSO section in doc.
  - Fix examples/ex3.pl.
  - Update copyright years to 2015.
 
