@@ -5,6 +5,7 @@
  - Add lines to XML document.
  - Fix examples/ex3.pl.
  - Remove obsolete code from EXAMPLE3 section in doc (neato driver is default).
+ - Rename images/Sofia.png to images/ex3.png.
  - Update copyright years to 2015.
  - Update image in EXAMPLE3 section in doc.
  - Update to Map::Tube 2.74 version (fix tests).
