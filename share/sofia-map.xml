@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="Софийско метро">
   <!-- https://bg.wikipedia.org/wiki/Софийско_метро -->
+  <lines>
+    <line id="I" name="Първи метродиаметър" color="red"/>
+    <line id="II" name="Втори метродиаметър" color="blue"/>
+  </lines>
   <stations>
     <!-- Stations on multiple lines. -->
     <station id="ОБЕЛЯ" name="Обеля" line="Първи метродиаметър,Втори метродиаметър" link="A02,B02"/>

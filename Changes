@@ -2,6 +2,7 @@
  - Add <?xml> header to XML document.
  - Add Map::Tube::Graph and Task::Map::Tube to SEE ALSO section in doc.
  - Add Map::Tube::Plugin::Graph to SEE ALSO section in doc.
+ - Add lines to XML document.
  - Fix examples/ex3.pl.
  - Update copyright years to 2015.
  - Update to Map::Tube 2.74 version (fix tests).
