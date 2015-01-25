@@ -1,4 +1,4 @@
-0.05
+0.05 2015-01-25T20:06:37+01:00
  - Add <?xml> header to XML document.
  - Add Map::Tube::Graph and Task::Map::Tube to SEE ALSO section in doc.
  - Add Map::Tube::Plugin::Graph to SEE ALSO section in doc.
