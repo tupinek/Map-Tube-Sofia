@@ -173,7 +173,7 @@ For more information about Sofia Map, click L<here|https://en.wikipedia.org/wiki
  system "ls -l Sofia.png";
 
  # Output like:
- # -rw-r--r-- 1 skim skim 78098 Dec 23 11:47 Sofia.png
+ # -rw-r--r-- 1 skim skim 78091 Jan 25 20:04 Sofia.png
 
 =begin html
 
