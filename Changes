@@ -1,5 +1,6 @@
 0.06
  - Rewrite SEE ALSO section to new style.
+ - Update Module::Install to 1.16 version.
  - Update examples/ex3.pl example.
 
 0.05 2015-01-25T20:06:37+01:00
