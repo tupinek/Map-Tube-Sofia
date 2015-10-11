@@ -4,6 +4,8 @@ examples/ex2.pl
 examples/ex3.pl
 images/ex3.png
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -22,10 +24,10 @@ README
 share/sofia-map.xml
 SIGNATURE
 Sofia.pm
-t/Map-Tube-Sofia/00-use.t
-t/Map-Tube-Sofia/01-version.t
-t/Map-Tube-Sofia/02-pod_coverage.t
-t/Map-Tube-Sofia/03-pod.t
-t/Map-Tube-Sofia/04-get_shortest_route.t
-t/Map-Tube-Sofia/05-name.t
-t/Map-Tube-Sofia/06-xml.t
+t/Map-Tube-Sofia/01-use.t
+t/Map-Tube-Sofia/02-version.t
+t/Map-Tube-Sofia/03-get_shortest_route.t
+t/Map-Tube-Sofia/04-name.t
+t/Map-Tube-Sofia/05-xml.t
+xt/Map-Tube-Sofia/01-pod_coverage.t
+xt/Map-Tube-Sofia/02-pod.t
