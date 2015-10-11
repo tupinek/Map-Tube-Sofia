@@ -27,8 +27,9 @@ SIGNATURE
 Sofia.pm
 t/Map-Tube-Sofia/01-use.t
 t/Map-Tube-Sofia/02-version.t
-t/Map-Tube-Sofia/03-get_shortest_route.t
-t/Map-Tube-Sofia/04-name.t
-t/Map-Tube-Sofia/05-xml.t
+t/Map-Tube-Sofia/03-map.t
+t/Map-Tube-Sofia/04-get_shortest_route.t
+t/Map-Tube-Sofia/05-name.t
+t/Map-Tube-Sofia/06-xml.t
 xt/Map-Tube-Sofia/01-pod_coverage.t
 xt/Map-Tube-Sofia/02-pod.t
