@@ -3,6 +3,7 @@ abstract: 'Interface to the Sofia Metro Map.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
+  Encode: 0
   English: 0
   ExtUtils::MakeMaker: 6.36
   Test::More: 0
