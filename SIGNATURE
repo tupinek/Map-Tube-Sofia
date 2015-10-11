@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,44 +14,50 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2c5226991f037758c3587223467df61596ea0fef Changes
+SHA1 dc82317f5ac6360e0e3961d0957384c21f03af01 Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
-SHA1 8c71f2e957af7734d5c8f7cf5f97c4c6810f16ea MANIFEST
-SHA1 7963abc30b5d6d5a0d7c0fd3b12bf33192cd0f26 META.yml
-SHA1 644748a769d4d0026d56aff480e60174dd882465 Makefile.PL
-SHA1 89eb731920fb6ca34fd5c6acdd57517d432b050d README
-SHA1 fbc93ea640e40f48e33dd5ecfdab1319d5b8f3e2 Sofia.pm
+SHA1 e0c8a2cdff60dff8895884955cd9bf30ec9d0bff MANIFEST
+SHA1 23aa1b5e8f1ac0c876896e632d0a056314dc100b META.yml
+SHA1 adf2a42767ee755dbf12d2713cdd7c19f4776b9d Makefile.PL
+SHA1 d01e3c0a08185e5d3c775d19337828c89b1bd7db README
+SHA1 32ac42b244129740951a489526742732ebbbbdae Sofia.pm
 SHA1 2ed9937b38258aac47eb606adb0d6c1dbf0f14e8 examples/ex1.pl
 SHA1 b7ecf787efdf2b4083917f2639c0a3c175ea38a5 examples/ex2.pl
-SHA1 45cccdd6cfc51411f5ecc5514042fe6c3101ba48 examples/ex3.pl
+SHA1 60e8d3d03ce31a561451696a5ce9afe6e58b3beb examples/ex3.pl
+SHA1 d2d72cc285c43645a998fb9485d3c97ca1cc0b19 examples/ex4.pl
 SHA1 732540782f440e2ba32e95491be92c0ad7651b8a images/ex3.png
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 42de62df31eaf796d8bfd49a11fdc9cff1b50b74 inc/Module/Install/Share.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 a0c09e16f87f867229cb26ec518d38fb3dd02e31 share/sofia-map.xml
-SHA1 db2ade66e7a46d6ed7e93426f7b7281a924f8616 t/Map-Tube-Sofia/00-use.t
-SHA1 940bbab615122150a77c8ab289b031b7b5ae15dc t/Map-Tube-Sofia/01-version.t
-SHA1 11d0a2cddc87d1944a4449f91b735539c44162f7 t/Map-Tube-Sofia/02-pod_coverage.t
-SHA1 1ec968a7f3fcf8025c75b55a41b7380f8746ca1f t/Map-Tube-Sofia/03-pod.t
-SHA1 c5209114080e64094ca4eb4cd31d628f27daf991 t/Map-Tube-Sofia/04-get_shortest_route.t
-SHA1 6a1165eabadb1b5f369bb9af82914bce0752c45e t/Map-Tube-Sofia/05-name.t
-SHA1 1b01ca0a00bf45bc2f955c471bfdc15b1b44e747 t/Map-Tube-Sofia/06-xml.t
+SHA1 db2ade66e7a46d6ed7e93426f7b7281a924f8616 t/Map-Tube-Sofia/01-use.t
+SHA1 d961eec76726bcca9d583860bc898adeb0c8879e t/Map-Tube-Sofia/02-version.t
+SHA1 6afc7a9a4b42f8ec6a93ab7fc2f5fbdb14fc87ae t/Map-Tube-Sofia/03-map.t
+SHA1 e0b7d64ec724409b103639d72793d9fcaa101ccf t/Map-Tube-Sofia/04-get_node_by_id.t
+SHA1 45b8dd24c90fc41dec204ab648eddeef48bc6b7d t/Map-Tube-Sofia/05-get_node_by_name.t
+SHA1 2c32fba8bd9c97d629c622a80309eb2a180601c0 t/Map-Tube-Sofia/06-get_shortest_route.t
+SHA1 db8d032f543baad60fb89a55c34178ef1fa5507d t/Map-Tube-Sofia/07-name.t
+SHA1 8f08c6734da4912b0595d0cfbc7b535e3ba1b26e t/Map-Tube-Sofia/08-xml.t
+SHA1 11d0a2cddc87d1944a4449f91b735539c44162f7 xt/Map-Tube-Sofia/01-pod_coverage.t
+SHA1 1ec968a7f3fcf8025c75b55a41b7380f8746ca1f xt/Map-Tube-Sofia/02-pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUxT7BAAoJEJe+XXKaIuTlwnMH/3KgDWt1wNWV4iBSfY3gcbrs
-Iwr8qmgDLDEV0aCFhALFGI70e8y2XS+9nrvEYchU6/XbqwyUPlCNK7hFXuPw6Px/
-566oZkcv2x/+UztEvueTADBuAbwcwxwsGb9xDOApxbtLsONFTBDIUtX/Ld+8Wx9Y
-/st/YROBOfEQ6f3oIqzPnRUoV+XLIioiAhMnlhIveNZee9+hRRr8n8m2U9WGLrRW
-GZyiZIjwWa3x3P4uv7jlEcPl5VqVnwpLuLkdMzOfnCpJJ38yRI25HMYhEOIo88V/
-I6nniX+4RrO91qUlMPon5oQGgM2PXkfm58a9hud5Kv82u9DSJSWF4B6zezZq7G8=
-=y1U5
+iQEcBAEBAgAGBQJWGjFuAAoJEJe+XXKaIuTlwdoH/02/HHCiUOzSTeDhJOsEYMY5
+j0+wnQBCYsg6zyw3sJyqiX5BGoxykrToZa0fwTRbJuHUbbPEqESLVciwJ5B+QjWh
+CEcd2irDkLWu480cxykJl0ywHEh9kOrc8w8L9RRzUJeAXNu6deHC18zc8s/IZr/+
+yDVlzs0MtgU1VZ7kRcU/SfpMe05REWGNLksS0an6k3+W7LYYtHkCkq0pb/JxAUwS
+EI2vKzVPeP+ieWWqBsERM6pQj6SmQsHy5G6930zIFjub/4NIeAHImnITs8Urw6WY
+WJiBhHUs9xktRldqlgr60gPDivQo1fpQjrZtrjDu2d8996pa1kkc8lYFAyy194M=
+=N2HJ
 -----END PGP SIGNATURE-----
