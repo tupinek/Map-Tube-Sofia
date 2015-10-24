@@ -6,34 +6,34 @@
     <line id="II" name="Втори метродиаметър" color="blue"/>
   </lines>
   <stations>
-    <station id="A01" name="Обеля" line="I" link="A02" other_link="Tunnel:B01"/>
-    <station id="A02" name="Сливница" line="I" link="A01,A03"/>
-    <station id="A03" name="Люлин" line="I" link="A02,A04"/>
-    <station id="A04" name="Западен парк" line="I" link="A03,A05"/>
-    <station id="A05" name="Вардар" line="I" link="A04,A06"/>
-    <station id="A06" name="Константин Величков" line="I" link="A05,A07"/>
-    <station id="A07" name="Опълченска" line="I" link="A06,A08"/>
-    <station id="A08" name="Сердика" line="I" link="A07,A09" other_link="Tunnel:B09"/>
-    <station id="A09" name="СУ „Св. Климент Охридски“" line="I" link="A08,A10"/>
-    <station id="A10" name="Стадион „Васил Левски“" line="I" link="A09,A11"/>
-    <station id="A11" name="Жолио Кюри" line="I" link="A10,A12"/>
-    <station id="A12" name="Г. М. Димитров" line="I" link="A11,A13"/>
-    <station id="A13" name="Мусагеница" line="I" link="A12,A14"/>
-    <station id="A14" name="Младост 1" line="I" link="A13,A15"/>
-    <station id="A15" name="Младост 3" line="I" link="A14,A16"/>
-    <station id="A16" name="ИЕЦ - Цариградско шосе" line="I" link="A15"/>
+    <station id="A01" name="Обеля" line="I:1" link="A02" other_link="Tunnel:B01"/>
+    <station id="A02" name="Сливница" line="I:2" link="A01,A03"/>
+    <station id="A03" name="Люлин" line="I:3" link="A02,A04"/>
+    <station id="A04" name="Западен парк" line="I:4" link="A03,A05"/>
+    <station id="A05" name="Вардар" line="I:5" link="A04,A06"/>
+    <station id="A06" name="Константин Величков" line="I:6" link="A05,A07"/>
+    <station id="A07" name="Опълченска" line="I:7" link="A06,A08"/>
+    <station id="A08" name="Сердика" line="I:8" link="A07,A09" other_link="Tunnel:B09"/>
+    <station id="A09" name="СУ „Св. Климент Охридски“" line="I:9" link="A08,A10"/>
+    <station id="A10" name="Стадион „Васил Левски“" line="I:10" link="A09,A11"/>
+    <station id="A11" name="Жолио Кюри" line="I:11" link="A10,A12"/>
+    <station id="A12" name="Г. М. Димитров" line="I:12" link="A11,A13"/>
+    <station id="A13" name="Мусагеница" line="I:13" link="A12,A14"/>
+    <station id="A14" name="Младост 1" line="I:14" link="A13,A15"/>
+    <station id="A15" name="Младост 3" line="I:15" link="A14,A16"/>
+    <station id="A16" name="ИЕЦ - Цариградско шосе" line="I:16" link="A15"/>
 
-    <station id="B01" name="Обеля" line="II" link="B02" other_link="Tunnel:A01"/>
-    <station id="B02" name="Ломско шосе" line="II" link="B01,B03"/>
-    <station id="B03" name="Бели Дунав" line="II" link="B02,B04"/>
-    <station id="B04" name="Надежда" line="II" link="B03,B05"/>
-    <station id="B05" name="Хан Кубрат" line="II" link="B04,B06"/>
-    <station id="B06" name="Княгиня Мария Луиза" line="II" link="B05,B07"/>
-    <station id="B07" name="Централна жп гара" line="II" link="B06,B08"/>
-    <station id="B08" name="Лъвов мост" line="II" link="B07,B09"/>
-    <station id="B09" name="Сердика" line="II" link="B08,B10" other_link="Tunnel:A08"/>
-    <station id="B10" name="НДК" line="II" link="B09,B11"/>
-    <station id="B11" name="Европейски съюз" line="II" link="B10,B12"/>
-    <station id="B12" name="Джеймс Баучер" line="II" link="B11"/>
+    <station id="B01" name="Обеля" line="II:1" link="B02" other_link="Tunnel:A01"/>
+    <station id="B02" name="Ломско шосе" line="II:2" link="B01,B03"/>
+    <station id="B03" name="Бели Дунав" line="II:3" link="B02,B04"/>
+    <station id="B04" name="Надежда" line="II:4" link="B03,B05"/>
+    <station id="B05" name="Хан Кубрат" line="II:5" link="B04,B06"/>
+    <station id="B06" name="Княгиня Мария Луиза" line="II:6" link="B05,B07"/>
+    <station id="B07" name="Централна жп гара" line="II:7" link="B06,B08"/>
+    <station id="B08" name="Лъвов мост" line="II:8" link="B07,B09"/>
+    <station id="B09" name="Сердика" line="II:9" link="B08,B10" other_link="Tunnel:A08"/>
+    <station id="B10" name="НДК" line="II:10" link="B09,B11"/>
+    <station id="B11" name="Европейски съюз" line="II:11" link="B10,B12"/>
+    <station id="B12" name="Джеймс Баучер" line="II:12" link="B11"/>
   </stations>
 </tube>
