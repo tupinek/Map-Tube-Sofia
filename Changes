@@ -1,4 +1,4 @@
-0.08
+0.08 2017-11-24T10:42:42+01:00
  - Add EXAMPLE5 section to doc.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix of map by Mohammad S Anwar.
